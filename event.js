@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var cards = document.querySelectorAll(".card");
 
   cards.forEach(function (card) {
-<<<<<<< HEAD
+
     var title = card.querySelector("h3");
     var eventName = title ? title.textContent : "";
 
@@ -29,17 +29,15 @@ document.addEventListener("DOMContentLoaded", function () {
       eventKey = "talent";
     }
 
-=======
+
 
     
     var eventKey = card.getAttribute('data-event');
->>>>>>> 7855b2533df485dc6c2d12bff4692c48a21d5d92
 
     var detailBtn = card.querySelector(".detail-btn");
     var registerBtn = card.querySelector(".register-btn");
 
     if (detailBtn) {
-<<<<<<< HEAD
       detailBtn.addEventListener("click", function () {
         if (eventKey) {
           window.location.href = eventKey + ".html";
@@ -98,7 +96,6 @@ buttons.forEach(function(button) {
       favorites.forEach(function(item) {
         if (item !== eventName) {
           newList.push(item);
->>>>>>> 7855b2533df485dc6c2d12bff4692c48a21d5d92
         }
       });
     }
@@ -160,11 +157,4 @@ buttons.forEach(function(button) {
 
 
 
-<<<<<<< HEAD
 })
-=======
-
-
-
-
->>>>>>> 7855b2533df485dc6c2d12bff4692c48a21d5d92
